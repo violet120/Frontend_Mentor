@@ -1,0 +1,89 @@
+/* reset css */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* basic settings */
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+  --navy-blue: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: var(--light-gray);
+  font-family: 'Outfit', sans-serif;
+}
+
+/* main */
+.card-container {
+  margin: 5rem auto;
+  max-width: 24rem;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 40px 2px rgba(0, 0, 0, .1);
+}
+
+.card-container,
+.card-title,
+.card-content {
+  text-align: center;
+  background-color: var(--white);
+}
+
+.card-img {
+  border-radius: 15px;
+}
+
+.card-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 0 .5rem;
+  color: var(--dark-blue);
+  font-size: 1.5rem;
+}
+
+.card-content {
+  margin-bottom: 3rem;
+  padding: 0 1rem;
+  color: var(--grayish-blue);
+  font-size: 1.1rem;
+}
+
+.card-img,
+.card-title,
+.card-content {
+  width: 90%;
+}
+
+/* footer */
+.attribution { 
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 11px;
+}
+
+.attribution a { 
+  color: var(--navy-blue);
+}
