@@ -3,12 +3,12 @@
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). 
 
 ### Screenshot
-<img src="./design/qr-code.png" alt="" width="50%">
+<img src="./design/qr-code.png" alt="" width="40%">
 
 ### Links
 
-- Solution URL : [Add solution URL here](https://your-solution-url.com)
-- Live Site URL : [Add live site URL here](https://your-live-site-url.com)
+- Solution URL : [GitHub REPO](https://github.com/violet120/Frontend_Mentor/tree/main/qr_code_component)
+- Live Site URL : [DEMO](https://violet120.github.io/Frontend_Mentor/qr_code_component/index.html)
 
 
 ### Build with
@@ -23,4 +23,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Acknowledgments
 
-Thank you Frontend Mentor for providing the challenge!
+Thanks to [Frontend Mentor](https://www.frontendmentor.io/) for the challenge
